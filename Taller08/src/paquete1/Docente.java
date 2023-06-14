@@ -9,13 +9,31 @@ package paquete1;
  *
  * @author reroes
  */
-public class Docente {
+public class Docente{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    protected String nombre;
+    protected String cedula;
+
+   
+    public void establecerNombre(String n) {
+        nombre = n;
     }
+
+    public void establecerCedula(String c) {
+        cedula = c;
+    }
+
+    public String obtenerNombre() {
+        return nombre;
+    }
+
+    public String obtenerCedula() {
+        return cedula;
+    }
+
+    
+    
+    
+    
     
 }
